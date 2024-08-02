@@ -1,0 +1,21 @@
+Animal Behavior Dataset README
+Overview
+This dataset has been curated to train a machine learning model focused on analyzing and understanding various animal behaviors. The data is collected from various sources and preprocessed to ensure high quality and relevance for training robust models. This README provides detailed information about the dataset, its structure.
+
+Images: High-resolution images capturing various animal behaviors.
+Videos: Short video clips showcasing dynamic animal behaviors.
+Annotations: JSON files containing metadata and labels for each image.
+Folder Structure
+The dataset is organized into the following folders:
+
+Copy code
+dataset/
+├── images/
+│   ├── 0_png.rf.5ddfd2442f93b95c05783f25c20bef7b.jpg
+│   ├── 8_png.rf.51083975d246ca70db6ca0c6def2133c.jpg
+│   └── ...
+├── annotations/
+│   ├── 0_png.rf.5ddfd2442f93b95c05783f25c20bef7b.txt
+│   ├── 8_png.rf.51083975d246ca70db6ca0c6def2133c.json
+│   └── ...
+└── README.md
