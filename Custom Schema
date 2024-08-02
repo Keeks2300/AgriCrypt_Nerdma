@@ -1,0 +1,124 @@
+{
+  "openapi": "3.0.0",
+  "info": {
+    "title": "Video Analysis API",
+    "version": "1.0.0",
+    "description": "An API for analyzing video and image inputs to provide observations and recommendations."
+  },
+  "servers": [
+    {
+      "url": "https://https://www.agenthost.ai/chat/agricrypt/v1"
+    }
+  ],
+  "paths": {
+    "/analyze": {
+      "post": {
+        "summary": "Analyze video and image input",
+        "operationId": "analyzeMedia",
+        "description": "Uploads a video or image file for analysis and returns observations and recommendations.",
+        "requestBody": {
+          "required": true,
+          "content": {
+            "multipart/form-data": {
+              "schema": {
+                "type": "object",
+                "properties": {
+                  "file": {
+                    "type": "string",
+                    "format": "binary",
+                    "description": "Video or image file to analyze"
+                  },
+                  "analysis_type": {
+                    "type": "string",
+                    "enum": [
+                      "livestock_behavior",
+                      "anomaly",
+                      "plant_health"
+                    ],
+                    "description": "Type of analysis to perform"
+                  }
+                },
+                "required": [
+                  "file",
+                  "analysis_type"
+                ]
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "Successful analysis",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/AnalysisResult"
+                }
+              }
+            }
+          },
+          "400": {
+            "description": "Bad request",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Error"
+                }
+              }
+            }
+          },
+          "500": {
+            "description": "Internal server error",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Error"
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  "components": {
+    "schemas": {
+      "AnalysisResult": {
+        "type": "object",
+        "properties": {
+          "observations": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            },
+            "description": "List of observations from the analysis"
+          },
+          "recommendations": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            },
+            "description": "Recommendations based on the observations"
+          }
+        }
+      },
+      "Error": {
+        "type": "object",
+        "properties": {
+          "error": {
+            "type": "string",
+            "description": "Error message"
+          }
+        }
+      }
+    },
+    "securitySchemes": {
+      "BearerAuth": {
+        "type": "http",
+        "scheme": "bearer",
+        "bearerFormat": "JWT",
+        "description": "JWT to authorize requests"
+      }
+    }
+  }
+}
