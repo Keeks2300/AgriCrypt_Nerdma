@@ -23,7 +23,7 @@ Agricrypt Chatbot assists farmers in understanding livestock issues faster by pr
 
 ## Quick Start Guide
 
-This is a guide to effectively test Agricrypt Chatbot. For a quick setup and usage guide, refer to the [Quick Start Guide](https://github.com/Keeks2300/AgriCrypt_Nerdma/blob/main/Quick%20Start%20Guide.md)).
+This is a guide to effectively test Agricrypt Chatbot. For a quick setup and usage guide, refer to the [Quick Start Guide](https://github.com/Keeks2300/AgriCrypt_Nerdma/blob/main/Quick%20Start%20Guide.md)).Tip if you can't veiw the documentation please download it and open it locally.
 
 ## Links to Demos 
 - [Demo of trained dataset](https://drive.google.com/file/d/1RPXrhBWUlfLmpZlhXYaB4ZVHMyudQ7Z2/view?usp=sharing)
