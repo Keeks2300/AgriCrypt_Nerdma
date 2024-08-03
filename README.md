@@ -7,7 +7,7 @@ Agricrypt Chatbot assists farmers in understanding livestock issues faster by pr
 **Disclaimer: Agricrypt Chatbot does not replace veterinary care; always consult a vet for professional health advice.**
 
 ## Table of Contents
-- [Quick Start Guide](#quick-start-guide)
+- [Quick Start Guide](https://github.com/Keeks2300/AgriCrypt_Nerdma/blob/main/Quick%20Start%20Guide.md)
 - [Links to Demos](#links-to-demos)
 - [Chatbot](#chatbot)
 - [Features](#features)
@@ -21,7 +21,7 @@ Agricrypt Chatbot assists farmers in understanding livestock issues faster by pr
 
 ## Quick Start Guide
 
-This is a guide to effectively test Agricrypt Chatbot. For a quick setup and usage guide, refer to the [Quick Start Guide](./QUICK_START.md).
+This is a guide to effectively test Agricrypt Chatbot. For a quick setup and usage guide, refer to the [Quick Start Guide](https://github.com/Keeks2300/AgriCrypt_Nerdma/blob/main/Quick%20Start%20Guide.md)).
 
 ## Links to Demos 
 - [Demo of trained dataset](https://drive.google.com/file/d/1RPXrhBWUlfLmpZlhXYaB4ZVHMyudQ7Z2/view?usp=sharing)
