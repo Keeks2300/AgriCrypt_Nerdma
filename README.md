@@ -12,11 +12,13 @@ Agricrypt Chatbot assists farmers in understanding livestock issues faster by pr
 
 [ Demo of Multi language Chat](https://drive.google.com/file/d/1rQa9OQEfUvS9IOZyzXkdjMn6-qPpEb3r/view?usp=sharing)
 
+**Please note the project is split in two (1) a chatbot that applies the trained dataset and Ai and (2) 
 
+## Chatbot
 
 ![QRCode](https://github.com/user-attachments/assets/bacff3ea-de7f-46b6-b82a-77d10c802977)
 
-**To test the chat click on the [TRY ME](https://www.agenthost.ai/chat/agricrypt)  and to test it on your mobile device scan the QR code**
+**To test the chat click on the [TRY ME](https://www.agenthost.ai/chat/agricrypt)  and to test it on your mobile device scan the QR code** 
 
 
 ## Features
