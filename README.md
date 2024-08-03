@@ -2,9 +2,22 @@
 # Agricrypt Chatbot
 Nerdma Hackathon 
 
-Agricrypt Chatbot is a Flask-based web application integrated with Roboflow for image predictions and Telegram for chat interactions.
+Agricrypt Chatbot assists farmers in understanding livestock issues faster by providing AI-driven insights through a simple, online interface. Integrated with Roboflow's trained models, it offers precise analysis of livestock health and behavior, ensuring farmers can identify potential problems quickly. Accessible via Telegram, Agricrypt Chatbot delivers instant alerts and actionable recommendations, making it easy to stay on top of farm management. Designed for simplicity and efficiency, it empowers farmers with cutting-edge technology without the need for complex setups.
+**Disclaimer: Agricrypt Chatbot does not replace veterinary care; always consult a vet for professional health advice.**
 
-*Dataset README 
+# Links to demos 
+[Demo of trained dataset](https://drive.google.com/file/d/1RPXrhBWUlfLmpZlhXYaB4ZVHMyudQ7Z2/view?usp=sharing)
+
+[Demo of Ai Chat in action](https://drive.google.com/file/d/1NFIEPhK8vmRtLdhW1DvNEW5OXX7bOXSx/view?usp=sharing)
+
+[ Demo of Multi language Chat](https://drive.google.com/file/d/1rQa9OQEfUvS9IOZyzXkdjMn6-qPpEb3r/view?usp=sharing)
+
+
+
+![QRCode](https://github.com/user-attachments/assets/bacff3ea-de7f-46b6-b82a-77d10c802977)
+
+**To test the chat click on the [TRY ME](https://www.agenthost.ai/chat/agricrypt)  and to test it on your mobile device scan the QR code**
+
 
 ## Features
 
