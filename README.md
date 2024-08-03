@@ -8,6 +8,7 @@ Agricrypt Chatbot assists farmers in understanding livestock issues faster by pr
 
 ## Table of Contents
 - [Documentation](https://github.com/Keeks2300/AgriCrypt_Nerdma/blob/main/AgriCrypt.docx)
+- [Presentation](https://github.com/Keeks2300/AgriCrypt_Nerdma/blob/main/PPT%20AgriCrypt.pdf)
 - [Quick Start Guide](https://github.com/Keeks2300/AgriCrypt_Nerdma/blob/main/Quick%20Start%20Guide.md)
 - [Links to Demos](#links-to-demos)
 - [Chatbot](#chatbot)
