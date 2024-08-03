@@ -7,7 +7,7 @@ Welcome to the Agricrypt Chatbot Quick Start Guide! Follow these instructions to
 - [Using the Chatbot](#using-the-chatbot)
 - [Simulating CCTV Cameras](#simulating-cctv-cameras)
 - [Disclaimer](#disclaimer)
-- [Contact](#contact)
+
 
 ## Introduction
 
@@ -28,7 +28,8 @@ Agricrypt Chatbot is designed to help with livestock monitoring and plant defect
 1. **Using Your Mobile Device**
    - Open the camera app on your mobile device.
    - Scan the following QR code to access the camera integration for the Roboflow model:
-     ![QR Code](path_to_qr_code_image)
+     <img width="397" alt="Screenshot 2024-08-03 at 13 50 11" src="https://github.com/user-attachments/assets/12476137-f8e0-4b13-a082-73466227495e">
+
 
 2. **Allow Camera Access**
    - Allow the application to access your camera when prompted.
